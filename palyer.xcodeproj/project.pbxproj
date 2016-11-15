@@ -14,6 +14,8 @@
 		525D11621DDAE96300E22BF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 525D11611DDAE96300E22BF8 /* Assets.xcassets */; };
 		525D11651DDAE96300E22BF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 525D11631DDAE96300E22BF8 /* LaunchScreen.storyboard */; };
 		525D11701DDAE96300E22BF8 /* palyerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 525D116F1DDAE96300E22BF8 /* palyerTests.m */; };
+		525D117D1DDAEB7B00E22BF8 /* StandardPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 525D117C1DDAEB7B00E22BF8 /* StandardPlayer.m */; };
+		525D11801DDAFCD100E22BF8 /* StandardPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 525D117F1DDAFCD100E22BF8 /* StandardPlayerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,12 @@
 		525D116B1DDAE96300E22BF8 /* palyerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = palyerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		525D116F1DDAE96300E22BF8 /* palyerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = palyerTests.m; sourceTree = "<group>"; };
 		525D11711DDAE96300E22BF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		525D117A1DDAE99B00E22BF8 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		525D117B1DDAEB7B00E22BF8 /* StandardPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StandardPlayer.h; sourceTree = "<group>"; };
+		525D117C1DDAEB7B00E22BF8 /* StandardPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StandardPlayer.m; sourceTree = "<group>"; };
+		525D117E1DDAFCD100E22BF8 /* StandardPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StandardPlayerView.h; sourceTree = "<group>"; };
+		525D117F1DDAFCD100E22BF8 /* StandardPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StandardPlayerView.m; sourceTree = "<group>"; };
+		525D11811DDAFF6500E22BF8 /* PlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +89,12 @@
 		525D11541DDAE96300E22BF8 /* palyer */ = {
 			isa = PBXGroup;
 			children = (
+				525D117A1DDAE99B00E22BF8 /* Player.h */,
+				525D11811DDAFF6500E22BF8 /* PlayerView.h */,
+				525D117E1DDAFCD100E22BF8 /* StandardPlayerView.h */,
+				525D117F1DDAFCD100E22BF8 /* StandardPlayerView.m */,
+				525D117B1DDAEB7B00E22BF8 /* StandardPlayer.h */,
+				525D117C1DDAEB7B00E22BF8 /* StandardPlayer.m */,
 				525D11581DDAE96300E22BF8 /* AppDelegate.h */,
 				525D11591DDAE96300E22BF8 /* AppDelegate.m */,
 				525D115B1DDAE96300E22BF8 /* ViewController.h */,
@@ -214,7 +228,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				525D115D1DDAE96300E22BF8 /* ViewController.m in Sources */,
+				525D117D1DDAEB7B00E22BF8 /* StandardPlayer.m in Sources */,
 				525D115A1DDAE96300E22BF8 /* AppDelegate.m in Sources */,
+				525D11801DDAFCD100E22BF8 /* StandardPlayerView.m in Sources */,
 				525D11571DDAE96300E22BF8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
