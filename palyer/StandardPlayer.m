@@ -17,7 +17,7 @@
 @property (nonatomic ,strong) NSMutableArray *itmes;
 @property (nonatomic ,strong) AVPlayerItem *currentItme;
 
-@property (nonatomic ,assign) BOOL isReady;
+//@property (nonatomic ,assign) BOOL isReady;
 
 @end
 
@@ -28,7 +28,7 @@
     self = [super init];
     if (self) {
         _itmes = [NSMutableArray array];
-      return  self;
+        return  self;
     }
     return nil;
 }
@@ -37,8 +37,8 @@
 {
     _currentItme = currentItme;
     self.isReady = NO;
-    [self removeObserver:_currentItme forKeyPath:@"status"];
-    [currentItme addObserver:self forKeyPath:@"stause" options:NSKeyValueObservingOptionNew context:nil];
+   // [_currentItme removeObserver:self forKeyPath:@"status"];
+    [_currentItme addObserver:self forKeyPath:@"status" options:NSKeyValueObservingOptionNew context:nil];
 }
 - (void)addPlayerItmeWithURL:(NSURL*)url
 {
@@ -60,7 +60,7 @@
             [self replaceCurrentItemWithPlayerItem:_currentItme];
         }
     } @catch (NSException *exception) {
-        
+        NSLog(@"%@",exception);
     } @finally {
         
     }
@@ -98,7 +98,7 @@
 
 - (void)theLast
 {
-    
+
 }
 
 #pragma mark - Priavte

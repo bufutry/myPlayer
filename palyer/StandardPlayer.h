@@ -14,7 +14,7 @@
 @interface StandardPlayer : AVPlayer <Player>
 @property (nonatomic ,assign ,readonly) NSInteger totalTime;
 @property (nonatomic ,assign ,readonly) NSInteger currentTime;
-@property (nonatomic ,assign ,readonly) BOOL isReady;
+@property (nonatomic ,assign) BOOL isReady;
 
 - (void)play;
 
@@ -23,6 +23,7 @@
 - (void)next;
 
 - (void)theLast;
+
 
 - (void)addPlayerItmeWithURL:(NSURL*)url;
 - (void)addPlayerItmesWithArrary:(NSArray*)itmes;

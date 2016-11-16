@@ -13,7 +13,6 @@
 - (void)didPlay;
 - (void)didPause;
 - (void)didNext;
-- (void)didTheLast;
 
 - (NSArray*)singUrlsOfArray;
 @end

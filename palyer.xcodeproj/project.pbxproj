@@ -426,6 +426,7 @@
 				525D11761DDAE96300E22BF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		525D11771DDAE96300E22BF8 /* Build configuration list for PBXNativeTarget "palyerTests" */ = {
 			isa = XCConfigurationList;
@@ -434,6 +435,7 @@
 				525D11791DDAE96300E22BF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -17,20 +17,29 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    StandardPlayerView *player = [[StandardPlayerView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 300)];
+    StandardPlayerView *player = [[StandardPlayerView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width,130)];
     
     player.delegat = self;
     [self.view addSubview:player];
     [player show];
     self.view.backgroundColor = [UIColor whiteColor];
+    
+    UIButton *bt = [UIButton buttonWithType:UIButtonTypeCustom];
+    bt.frame = CGRectMake(10, 300, 50, 50);
+    bt.backgroundColor = [UIColor yellowColor];
+    [self.view addSubview:bt];
+    [bt addTarget:self action:@selector(fu) forControlEvents:UIControlEventTouchUpInside];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+- (void)fu{
+    [self shouldAutorotate];
+}
 #pragma mark - delegat
 
 - (void)didPlay
 {
-
+  
 }
 
 - (void)didPause
@@ -55,5 +64,15 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (BOOL)shouldAutorotate
+{
+    return YES;
+}
+
+#pragma mark - 
+//-(BOOL)shouldAutorotate
+//{
+//    return self;
+//}
 
 @end

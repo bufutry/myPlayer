@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "80DE94214DED0C6EDEAE66D621BDE72445E03679",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "80DE94214DED0C6EDEAE66D621BDE72445E03679" : 9223372036854775807,
+    "0F645E282156DA88D96C89585E3AC4346C475EDC" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "ECEFB264-7C12-4B39-A6B9-E7DB4ED60089",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "80DE94214DED0C6EDEAE66D621BDE72445E03679" : "palyer\/",
+    "0F645E282156DA88D96C89585E3AC4346C475EDC" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "palyer",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "palyer.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:bufutry\/myPlayer.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0F645E282156DA88D96C89585E3AC4346C475EDC"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:bufutry\/myPlayer.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "80DE94214DED0C6EDEAE66D621BDE72445E03679"
+    }
+  ]
+}
